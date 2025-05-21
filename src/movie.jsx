@@ -8,7 +8,7 @@ export default function Movie(props) {
 
   return (
     <section className="p-2 flex flex-col gap-4 min-h-[90%] w-[95%] md:w-[80%] rounded-3xl bg-teal-600 text-blue-50">
-      <div className="w-full flex justify-between items-center">
+      <div className="w-full flex justify-between items-center px-4">
         <button className="w-6 h-6 sm:w-8 sm:h-8" onClick={() => props.setIsSubmit(false)}>
           Back
         </button>
