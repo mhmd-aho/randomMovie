@@ -1,4 +1,6 @@
 import ReadMore from "./readmore";
+import img1 from "./assets/icons8-back-50.png";
+import img2 from "./assets/icons8-retry-50.png";
 export default function Movie(props) {
   const theMovie = props.movie;
 
@@ -10,13 +12,13 @@ export default function Movie(props) {
     <section className="p-2 flex flex-col gap-4 min-h-[90%] w-[95%] md:w-[80%] rounded-3xl bg-teal-600 text-blue-50">
       <div className="w-full flex justify-between items-center">
         <button onClick={() => props.setIsSubmit(false)}>
-          <img className="w-6 h-6 sm:w-8 sm:h-8" src="../src/assets/icons8-back-50.png" alt="Back" />
+          <img className="w-6 h-6 sm:w-8 sm:h-8" src={img1} alt="Back" />
         </button>
         <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-center flex-1">
           {theMovie.title}
         </h1>
         <button onClick={handleRetry}>
-          <img className="w-6 h-6 sm:w-8 sm:h-8" src="../src/assets/icons8-retry-50.png" alt="Retry" />
+          <img className="w-6 h-6 sm:w-8 sm:h-8" src={img2} alt="Retry" />
         </button>
       </div>
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 w-full h-full">
