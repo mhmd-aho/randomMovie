@@ -1,12 +1,37 @@
-# React + Vite
+# 🎬 Random Movie Picker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive React app that helps you discover random movies based on your preferences like genre, decade, and runtime — powered by the TMDB API.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Check it out on GitHub Pages](https://mhmd-aho.github.io/randomMovie/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Features
+
+- 🎞️ Filter movies by **genre**, **decade**, and **runtime**
+- 🔀 Get a **random movie recommendation**
+- 🧾 Read a brief overview with a “Read More” toggle
+- 🔄 Retry for another suggestion
+- 🔙 Go back and change your preferences
+- 💅 Built with **React**, **Vite**, and **Tailwind CSS**
+
+---
+
+## 📦 Tech Stack
+
+- **React** + **Vite** – Lightning-fast front-end framework
+- **Tailwind CSS** – Utility-first modern styling
+- **TMDB API** – For fetching movie data
+- **gh-pages** – For GitHub Pages deployment
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mhmd-aho/randomMovie.git
+cd randomMovie
